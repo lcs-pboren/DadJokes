@@ -16,8 +16,7 @@ struct ContentView: View {
     //MARK: computed properties
     
     
-    var body: some View {
-        VStack {
+    var body: some View {        VStack {
             
             Text("\(currentJoke.joke)")
                 .multilineTextAlignment(.leading)
